@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 async def main() -> None:
-    if config.BOT_TOKEN.startswith("PUT_YOUR"):
+    if config.BOT_TOKEN.startswith("8808641162:AAE4-Pzv6M6LXsVPO2w4kWqv2CDvqGiYELU"):
         raise SystemExit("Set the BOT_TOKEN environment variable (token from @BotFather).")
 
     await db.init()
