@@ -2,7 +2,7 @@ import os
 from datetime import timedelta, timezone
 
 # Secrets and settings come from environment variables (Railway -> Variables).
-BOT_TOKEN = os.getenv("BOT_TOKEN", "PUT_YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8808641162:AAE4-Pzv6M6LXsVPO2w4kWqv2CDvqGiYELU")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "8206906617"))
 DATABASE_URL = os.getenv("DATABASE_URL", "")
 
